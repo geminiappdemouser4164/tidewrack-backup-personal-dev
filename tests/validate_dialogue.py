@@ -20,8 +20,19 @@ import json
 import sys
 from pathlib import Path
 
-# Entry-point node ids the game starts graphs from (see scripts/game.gd).
-KNOWN_ENTRIES = {"logbook", "radio", "door", "start"}
+# Entry-point node ids used by scripts/game.gd and selected by
+# GameState.get_ending_entry() in scripts/autoload/game_state.gd.
+KNOWN_ENTRIES = {
+    "logbook", "radio", "door", "start",
+    "ending_skeptic_distrust",
+    "ending_skeptic_distrust_radioed_tom",
+    "ending_skeptic_trust",
+    "ending_skeptic_trust_radioed_tom",
+    "ending_believer_trust",
+    "ending_believer_trust_radioed_tom",
+    "ending_believer_distrust",
+    "ending_believer_distrust_radioed_tom",
+}
 
 ROOT = Path(__file__).resolve().parent.parent
 DIALOGUE_DIR = ROOT / "data" / "dialogue"
