@@ -8,6 +8,7 @@ Checks, for every data/dialogue/*.json file:
   - every referenced target id exists
   - at least one terminal (next == null) is reachable from an entry point
   - reports orphan nodes (unreachable from any known entry) as warnings
+  - lists distinct flags set by nodes and choices in each graph (including false)
 
 Exit code 0 = all valid, 1 = at least one error.
 
@@ -44,6 +45,23 @@ def reachable(graph: dict, entries: set[str]) -> set[str]:
             if isinstance(t, str) and t in graph:
                 stack.append(t)
     return seen
+
+
+def flags_set(graph: dict) -> list[str]:
+    """List distinct set_flag keys on all nodes and choices, including false writes."""
+    flags: set[str] = set()
+    for node in graph.values():
+        if not isinstance(node, dict):
+            continue
+        sites = [node]
+        choices = node.get("choices")
+        if isinstance(choices, list):
+            sites.extend(choice for choice in choices if isinstance(choice, dict))
+        for site in sites:
+            assignments = site.get("set_flag")
+            if isinstance(assignments, dict):
+                flags.update(assignments)
+    return sorted(flags)
 
 
 def validate_file(path: Path) -> tuple[list[str], list[str]]:
@@ -116,7 +134,11 @@ def main() -> int:
         all_errors += errs
         all_warnings += warns
         status = "OK" if not errs else "FAIL"
-        print(f"[{status}] {path.relative_to(ROOT)}  ({len(json.loads(path.read_text()))} nodes)")
+        graph = json.loads(path.read_text())
+        print(f"[{status}] {path.relative_to(ROOT)}  ({len(graph)} nodes)")
+        if isinstance(graph, dict):
+            flags = flags_set(graph)
+            print(f"  flags set: {', '.join(flags) if flags else '(none)'}")
 
     for w in all_warnings:
         print(f"  warning: {w}")
