@@ -1,0 +1,182 @@
+{
+  "ending_skeptic_distrust": {
+    "speaker": "",
+    "text": "The beam passes over the north rocks. For a moment the fog brightens where Edith said the other light would be.",
+    "next": "ending_skeptic_distrust_2"
+  },
+  "ending_skeptic_distrust_2": {
+    "speaker": "",
+    "text": "You wait through another turn. Water, glass, a tired pair of eyes. You have an explanation you can live with.",
+    "next": "ending_skeptic_distrust_3"
+  },
+  "ending_skeptic_distrust_3": {
+    "speaker": "",
+    "text": "You close her ledger. In the new one, you record the weather and the condition of the lamp. Nothing about an answer.",
+    "next": "ending_skeptic_distrust_epilogue"
+  },
+  "ending_skeptic_distrust_epilogue": {
+    "speaker": "",
+    "text": "The radio stays quiet. You have told no one on the mainland what you found.",
+    "next": "ending_skeptic_distrust_4"
+  },
+  "ending_skeptic_distrust_radioed_tom": {
+    "speaker": "",
+    "text": "The beam passes over the north rocks. For a moment the fog brightens where Edith said the other light would be.",
+    "next": "ending_skeptic_distrust_radioed_tom_2"
+  },
+  "ending_skeptic_distrust_radioed_tom_2": {
+    "speaker": "",
+    "text": "You wait through another turn. Water, glass, a tired pair of eyes. You have an explanation you can live with.",
+    "next": "ending_skeptic_distrust_radioed_tom_3"
+  },
+  "ending_skeptic_distrust_radioed_tom_3": {
+    "speaker": "",
+    "text": "You close her ledger. In the new one, you record the weather and the condition of the lamp. Nothing about an answer.",
+    "next": "ending_skeptic_distrust_radioed_tom_epilogue"
+  },
+  "ending_skeptic_distrust_radioed_tom_epilogue": {
+    "speaker": "",
+    "text": "You remember Tom asking whether you were settling in. You have an ordinary answer ready for the next time he calls.",
+    "next": "ending_skeptic_distrust_4"
+  },
+  "ending_skeptic_distrust_4": {
+    "speaker": "",
+    "text": "By morning, the light has kept its hours. You decide that is all it has ever done.",
+    "next": null
+  },
+  "ending_skeptic_trust": {
+    "speaker": "",
+    "text": "You cannot make a signal out of what you saw beyond the rocks. But Edith's careful entries remain in front of you.",
+    "next": "ending_skeptic_trust_2"
+  },
+  "ending_skeptic_trust_2": {
+    "speaker": "",
+    "text": "You leave her pages intact. Beside tonight's date, you write: I saw the light she described. I do not know what she saw in it.",
+    "next": "ending_skeptic_trust_3"
+  },
+  "ending_skeptic_trust_3": {
+    "speaker": "",
+    "text": "There is work before dawn. Oil to measure, glass to clean. You keep the lamp burning for whoever might need the way back.",
+    "next": "ending_skeptic_trust_epilogue"
+  },
+  "ending_skeptic_trust_epilogue": {
+    "speaker": "",
+    "text": "You leave the ledger beside the radio. You have not yet spoken to Tom; for now, the account has only you to keep it.",
+    "next": "ending_skeptic_trust_4"
+  },
+  "ending_skeptic_trust_radioed_tom": {
+    "speaker": "",
+    "text": "You cannot make a signal out of what you saw beyond the rocks. But Edith's careful entries remain in front of you.",
+    "next": "ending_skeptic_trust_radioed_tom_2"
+  },
+  "ending_skeptic_trust_radioed_tom_2": {
+    "speaker": "",
+    "text": "You leave her pages intact. Beside tonight's date, you write: I saw the light she described. I do not know what she saw in it.",
+    "next": "ending_skeptic_trust_radioed_tom_3"
+  },
+  "ending_skeptic_trust_radioed_tom_3": {
+    "speaker": "",
+    "text": "There is work before dawn. Oil to measure, glass to clean. You keep the lamp burning for whoever might need the way back.",
+    "next": "ending_skeptic_trust_radioed_tom_epilogue"
+  },
+  "ending_skeptic_trust_radioed_tom_epilogue": {
+    "speaker": "",
+    "text": "Tom asked you to bring what you found to him first. You leave the ledger beside the radio, ready for that conversation.",
+    "next": "ending_skeptic_trust_4"
+  },
+  "ending_skeptic_trust_4": {
+    "speaker": "",
+    "text": "The beam turns. You watch the water until it comes around again.",
+    "next": null
+  },
+  "ending_believer_trust": {
+    "speaker": "",
+    "text": "Three flashes beyond the north rocks. Then darkness. You no longer count them to find the mistake.",
+    "next": "ending_believer_trust_2"
+  },
+  "ending_believer_trust_2": {
+    "speaker": "",
+    "text": "You open Edith's ledger to the place where her writing narrows. Under her last account, you add your own.",
+    "next": "ending_believer_trust_3"
+  },
+  "ending_believer_trust_3": {
+    "speaker": "",
+    "text": "She did not invent the answering light. Whatever took her out onto the water, you will not let that part of her story disappear.",
+    "next": "ending_believer_trust_epilogue"
+  },
+  "ending_believer_trust_epilogue": {
+    "speaker": "",
+    "text": "You have not called the mainland. Edith's words and your own lie together on the page, still unread by anyone else.",
+    "next": "ending_believer_trust_4"
+  },
+  "ending_believer_trust_radioed_tom": {
+    "speaker": "",
+    "text": "Three flashes beyond the north rocks. Then darkness. You no longer count them to find the mistake.",
+    "next": "ending_believer_trust_radioed_tom_2"
+  },
+  "ending_believer_trust_radioed_tom_2": {
+    "speaker": "",
+    "text": "You open Edith's ledger to the place where her writing narrows. Under her last account, you add your own.",
+    "next": "ending_believer_trust_radioed_tom_3"
+  },
+  "ending_believer_trust_radioed_tom_3": {
+    "speaker": "",
+    "text": "She did not invent the answering light. Whatever took her out onto the water, you will not let that part of her story disappear.",
+    "next": "ending_believer_trust_radioed_tom_epilogue"
+  },
+  "ending_believer_trust_radioed_tom_epilogue": {
+    "speaker": "",
+    "text": "You remember Tom's voice coming through the static. When you tell someone what you saw, you will not have to begin with a stranger.",
+    "next": "ending_believer_trust_4"
+  },
+  "ending_believer_trust_4": {
+    "speaker": "",
+    "text": "You keep the rhythm. When the distant light answers, hers is the name you say.",
+    "next": null
+  },
+  "ending_believer_distrust": {
+    "speaker": "",
+    "text": "The light beyond the north rocks answers again. You believe it now. That does not mean you believe it wanted to be found.",
+    "next": "ending_believer_distrust_2"
+  },
+  "ending_believer_distrust_2": {
+    "speaker": "",
+    "text": "Edith wrote as though a reply were an invitation. You read the words once more, then close the book.",
+    "next": "ending_believer_distrust_3"
+  },
+  "ending_believer_distrust_3": {
+    "speaker": "",
+    "text": "You tend the lamp and keep its ordinary sweep across the water. You send no private rhythm into the fog.",
+    "next": "ending_believer_distrust_epilogue"
+  },
+  "ending_believer_distrust_epilogue": {
+    "speaker": "",
+    "text": "You have not spoken to Tom. Between turns of the beam, the radio sits within reach.",
+    "next": "ending_believer_distrust_4"
+  },
+  "ending_believer_distrust_radioed_tom": {
+    "speaker": "",
+    "text": "The light beyond the north rocks answers again. You believe it now. That does not mean you believe it wanted to be found.",
+    "next": "ending_believer_distrust_radioed_tom_2"
+  },
+  "ending_believer_distrust_radioed_tom_2": {
+    "speaker": "",
+    "text": "Edith wrote as though a reply were an invitation. You read the words once more, then close the book.",
+    "next": "ending_believer_distrust_radioed_tom_3"
+  },
+  "ending_believer_distrust_radioed_tom_3": {
+    "speaker": "",
+    "text": "You tend the lamp and keep its ordinary sweep across the water. You send no private rhythm into the fog.",
+    "next": "ending_believer_distrust_radioed_tom_epilogue"
+  },
+  "ending_believer_distrust_radioed_tom_epilogue": {
+    "speaker": "",
+    "text": "You remember Tom telling you to keep the light steady. His voice is easy to recall in the pauses between the flashes.",
+    "next": "ending_believer_distrust_4"
+  },
+  "ending_believer_distrust_4": {
+    "speaker": "",
+    "text": "Out past the rocks, three flashes come without yours. You stay beside the lamp.",
+    "next": null
+  }
+}

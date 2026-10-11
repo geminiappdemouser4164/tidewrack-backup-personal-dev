@@ -24,6 +24,25 @@ func get_flag(name: String, default: Variant = false) -> Variant:
 	return flags.get(name, default)
 
 
+## Select an ending entry without changing flags or starting dialogue.
+## Exactly one reading flag must be true. Empty means the caller must resolve it.
+## Missing trust/contact flags default to false, matching get_flag().
+func get_ending_entry() -> String:
+	var believes := bool(get_flag("believer", false))
+	var doubts := bool(get_flag("skeptic", false))
+	if believes == doubts:
+		push_error("GameState: ending requires exactly one of believer or skeptic.")
+		return ""
+	var trusts_edith := bool(get_flag("trusted_edith", false))
+	var contacted_tom := bool(get_flag("radioed_tom", false))
+	var reading := "believer" if believes else "skeptic"
+	var trust := "trust" if trusts_edith else "distrust"
+	var entry := "ending_%s_%s" % [reading, trust]
+	if contacted_tom:
+		entry += "_radioed_tom"
+	return entry
+
+
 func new_game() -> void:
 	flags.clear()
 	current_scene = "res://scenes/game.tscn"
